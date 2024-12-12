@@ -1,5 +1,8 @@
 ## Alexander Kuesel
 ## Contains functions I have written to help parse through Geti outputs, be it prediction results or others.
+## To get the dictionary from Geti, use the following commands:
+##    labels = prediction.get_labels() ##get labels only
+##    label_dict = prediction.to_dict() #create a dictionary
 
 import numpy as np
 from geti_sdk.deployment import Deployment
